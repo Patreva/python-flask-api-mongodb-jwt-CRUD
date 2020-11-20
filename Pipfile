@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-mongoengine = "*"
+dnspython = "*"
+mongoengine-goodjson = "*"
+flask-restful = "*"
+flask-bcrypt = "*"
+flask-jwt-extended = "*"
+flask-mail = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
